@@ -12,6 +12,10 @@
   },
   "author": "Valeria Lopez",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
   "bugs": {
     "url": "https://github.com/valopezs/note-taker/issues"
   },
