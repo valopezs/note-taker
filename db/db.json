@@ -1,7 +1,17 @@
 [
-    {
-        "id": "",
-        "title":"Test Title",
-        "text":"Test text"
-    }
+	{
+		"id": "",
+		"title": "Test Title",
+		"text": "Test text"
+	},
+	{
+		"id": "bc7fe69f-6e44-4657-bd03-1b5cf2fbde31",
+		"title": "First Note",
+		"text": "I am sending a post request through Insomnia to test my notes app!"
+	},
+	{
+		"id": "2e22bc3e-a950-45e1-9e18-8f9f89349b9e",
+		"title": "Second Note",
+		"text": "This is my second attempt to make sure everything is a-okay"
+	}
 ]

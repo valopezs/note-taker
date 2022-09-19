@@ -1,9 +1,8 @@
 // require dependencies
 const express = require("express");
 const router = express.Router();
-const { v4: uuidv4 } = require('uuid');
 // create random ID
-const uuid = require("uuid");
+const { v4: uuidv4 } = require('uuid');
 // DB class object
 const DB = require("../db/DB");
 
