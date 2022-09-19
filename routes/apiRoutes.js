@@ -1,6 +1,7 @@
 // require dependencies
 const express = require("express");
 const router = express.Router();
+const { v4: uuidv4 } = require('uuid');
 // create random ID
 const uuid = require("uuid");
 // DB class object
@@ -16,7 +17,7 @@ router.get("/api/notes", async function (req, res) {
 router.post("/api/notes", async function (req, res) {
     const currentNotes = await DB.readNotes();
     let newNote = {
-        id: uuid(),
+        id: uuidv4(),
         title: req.body.title,
         text: req.body.text,
     };
