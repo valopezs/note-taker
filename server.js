@@ -12,9 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-const apiRoutes = require("./Develop/routes/apiRoutes");
+const apiRoutes = require("./routes/apiRoutes");
 app.use(apiRoutes);
-const htmlRoutes = require("./Develop/routes/htmlRoutes");
+const htmlRoutes = require("./routes/htmlRoutes");
 app.use(htmlRoutes);
 
 // create server listener
